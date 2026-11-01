@@ -1,0 +1,7 @@
+rootProject.ext.featureApp(project, 'phototext')
+
+dependencies {
+    // Bundled on-device text recognition (Latin script), no network needed.
+    implementation 'com.google.mlkit:text-recognition:16.0.1'
+}
+
